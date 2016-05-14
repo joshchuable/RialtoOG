@@ -81,6 +81,13 @@ ul, menu, dir {
   font-weight: bold;
 }
 
+@media (max-width: 33.9em) {
+  .container-fluid .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 /* ELEMENTS
 ============================================================= */
 nav {
@@ -96,6 +103,8 @@ nav {
 }
 nav .container {
   height: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 nav .fixed-menu {
   width: 100%;
@@ -114,12 +123,25 @@ nav li {
   transform: translateY(-50%);
 }
 nav .menu-left {
-  float: left;
+  position: absolute;
+  left: 0;
 }
 nav .menu-right {
-  float: right;
+  position: absolute;
+  right: 0;
 }
-nav .menu-right li,
+nav .menu-icon {
+  display: none;
+  color: #5C5555;
+  font-size: 30px;
+  margin-right: 20px;
+}
+@media (max-width: 33.9em) {
+  nav .menu-icon {
+    display: block;
+  }
+}
+nav .menu-items li,
 nav .menu-left li {
   display: inline-block;
   text-align: right;
@@ -127,14 +149,51 @@ nav .menu-left li {
   font-weight: bold;
   font-size: 18px;
 }
-nav .menu-right li a,
+nav .menu-items li a,
 nav .menu-left li a {
   color: #adadad;
   text-decoration: none;
 }
-nav .menu-right li a:hover,
+nav .menu-items li a:hover,
 nav .menu-left li a:hover {
   color: #939393;
+}
+nav .menu-items {
+  position: absolute;
+  right: 0;
+  z-index: 20;
+  min-height: 0 !important;
+}
+@media (max-width: 33.9em) {
+  nav .menu-items {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-top: 58px;
+    display: none;
+  }
+  nav .menu-items:first-child {
+    border-top: 1px solid #e0e0e0;
+  }
+  nav .menu-items li {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e0e0e0;
+    margin-left: 0;
+  }
+  nav .menu-items li a {
+    padding-left: 6px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 24px;
+  }
+}
+
+.menu-visible {
+  display: block !important;
 }
 
 .blue_button {
@@ -162,6 +221,10 @@ nav .menu-left li a:hover {
   color: #f7f7f7;
   position: relative;
   z-index: 100;
+}
+.order-now-button:hover {
+  background-color: #24c8af;
+  cursor: pointer;
 }
 
 #product-home-background {

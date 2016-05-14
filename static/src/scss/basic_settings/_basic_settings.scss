@@ -54,3 +54,12 @@ ul, menu, dir {
 .bold-text {
 	font-weight: bold;
 }
+
+.container-fluid {
+	@include screen-sm {
+		.row {
+			margin-left: 0;
+			margin-right: 0;
+		}
+	}
+}

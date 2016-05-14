@@ -12,6 +12,8 @@ nav {
 
 	.container {
 		height: 100%;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	.fixed-menu {
@@ -25,14 +27,27 @@ nav {
 	}
 
 	.menu-left {
-		float: left;
+		position: absolute;
+		left: 0;
 	}
 
 	.menu-right {
-		float: right;
+		position: absolute;
+		right: 0;
 	}
 
-	.menu-right,
+	.menu-icon {
+		display: none;
+		color: $dark-text;
+		font-size: 30px;
+		margin-right: 20px;
+
+		@include screen-sm {
+			display: block;
+		}
+	}
+
+	.menu-items,
 	.menu-left {
 		li {
 			display: inline-block;
@@ -51,7 +66,47 @@ nav {
 			}
 		}
 	}
+
+	.menu-items {
+		position: absolute;
+		right: 0;
+		z-index: 20;
+		min-height: 0 !important;
+
+		@include screen-sm {
+			width: 100%;
+			position: absolute;
+			right: 0;
+			left: 0;
+			margin-top: 58px;
+			display: none;
+
+			&:first-child {
+				border-top: 1px solid $gray;
+			}
+
+			li {
+				display: block;
+				width: 100%;
+				text-align: left;
+				background: $white;
+				border-bottom: 1px solid $gray;
+				margin-left: 0;
+
+				a {
+					padding-left: 6px;
+					padding-top: 8px;
+					padding-bottom: 8px;
+					font-size: 24px;
+				}
+			}
+		}
+	}
 }
 
 .logo {
+}
+
+.menu-visible {
+	display: block !important;
 }
