@@ -1,0 +1,27 @@
+.blue_button {
+	padding: 8px 12px;
+	background-color: $blue;
+	border-bottom: 3px solid darken($blue-dark,2);
+	font-size: 14px;
+	border-radius: 8px;
+	text-decoration: none;
+	color: $white;
+
+	&:hover {
+		background-color: $blue-light;
+		border-bottom: 3px solid $blue-dark;
+		cursor: pointer;
+	}
+}
+
+.order-now-button {
+	padding: 12px 20px;
+	font-size: 16px;
+	background-color: $teal;
+	border-radius: 6px;
+	font-weight: bold;
+	box-shadow: 0 0 5px rgba($black,.1);
+	color: $white;
+	position: relative;
+	z-index: 100;
+}

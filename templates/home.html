@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block content %}
+	<div class="container-fluid top-container" id="product-home-background">
+		<div class="row top-row">
+			<div class="col-sm-8 col-sm-offset-2">
+				<h1>A Product Headline to Remember</h1>
+				<h2>Finally, a product headline the whole family can enjoy</h2>
+				<button class="order-now-button">ORDER NOW</button>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid off-white-bg">
+		<div class="row row-section">
+			<div class="col-sm-8 col-sm-offset-2">
+				<h3 class="section-header">What is This Product?</h3>
+				<p class="section-text">If you understood anything about the world, you would know about this product. While most products are horrible garbage, our product is a good product.</p>
+				<p class="section-text">We've been building the product for about five days now. It started with a bit of passion, and now we have designed the ultimate product for you!</p>
+				<p class="section-text">This product will make you happy. Consume.</p>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid white-bg">
+		<div class="row row-section">
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-2">
+					<img class="product-image" src="static/build/img/product-image.png" alt="" height="340px" width="auto">
+				</div>
+				<div class="col-sm-4">
+					<h3 class="section-header">This picture does things to your brain...</h3>
+					<p class="section-text">...that convince you to buy this product immediately.</p>
+					<p class="section-text">As you can see, this is clearly a very cool product. Notice that one feature that is especially cool.</p>
+				</div>
+			</div>
+			<div class="row picture-row">
+				<div class="col-sm-4 col-sm-offset-2">
+					<h3 class="section-header">This time the text goes here...</h3>
+					<p class="section-text">...and the picture is on the other side. This excellent design definately makes you want to buy this item.</p>
+					<p class="section-text">Also, this is a great place to point out another great part of the product. Look! Witness how great this product is!</p>
+				</div>
+				<div class="col-sm-4">
+					<img src="static/build/img/product-image.png" alt="" height="340px" width="auto">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Checkout Form -->
+	<div class="container-fluid off-white-bg">
+		<div class="row row-section">
+			<div class="row">
+				<h3 class="section-header">Order a Product Now | Free Shipping</h3>
+				<h4 class="order-header">Product Name</h4>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-lg-offset-3">
+					<img class="order-product-image" src="static/build/img/product-image-square.png" alt="" height="300px" width="auto">
+				</div>
+				<div class="col-lg-2">
+					<div class="order-wrapper">
+						<p class="section-text">$Price</p>
+						<div class="input-wrapper">
+							<label for="quantity">Quantity</label>
+							<input type="text" name="quantity" id="quantity" value="1">
+						</div>
+						<button class="order-now-button">ORDER NOW</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- 	Email Subscription
+	<div class="container-fluid white-bg">
+		<div class="row row-section">
+			<div class="col-sm-12">
+
+			</div>
+		</div>
+	</div> -->
+{% endblock %}

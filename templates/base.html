@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% include "head.html" %}
+</head>
+<body>
+	<nav id="nav">
+		{% include "nav.html" %}
+	</nav>
+	<main id="content">
+		{% block content %}
+		{% endblock %}
+	</main>
+	<footer id="footer">
+		{% include "footer.html" %}
+	</footer>
+</body>
+</html>

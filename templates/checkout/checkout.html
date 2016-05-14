@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="container-fluid top-container white-bg">
+        <div class="row checkout-section">
+            <div class="row">
+                <h1 class="checkout-header">Product</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <img class="checkout-product-image" src="static/build/img/product-image-square.png" alt="" height="300px" width="auto">
+                </div>
+                <div class="col-md-5 checkout-product-description">
+                    <div class="row">
+                        <div class="order-wrapper">
+                            <p class="section-text">$Price</p>
+                            <div class="input-wrapper">
+                                <label for="quantity">Quantity</label>
+                                <input type="text" name="quantity" id="quantity" value="1">
+                            </div>
+                            <button class="order-now-button">ORDER NOW</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2 class="checkout-section-header">The Best Product, Available Now</h2>
+                            <p class="section-text">A brief description of the product and a couple of selling points. There really is no better product out there.</p>
+                            <p class="section-text">Moreover, you can even get <span class="bold-text">free shipping</span>.</p>
+                            <ul class="checkout-list">
+                                <li>Selling point number one</li>
+                                <li>Selling point number two</li>
+                                <li>Selling point number three</li>
+                                <li>Maybe even selling point number four</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    Email Subscription
+    <div class="container-fluid white-bg">
+        <div class="row checkout-section">
+            <div class="col-sm-12">
+
+            </div>
+        </div>
+    </div> -->
+{% endblock %}
+
+<div class="jumbotron" id="dark-background">
+<div class="container" id="top-container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="checkout-title">Checkout</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-5">
+            <img src="../static/build/img/bobblehead.png" alt="bobblehead product" class="img-responsive bobble-hero">
+        </div>
+        <div class="col-sm-6">
+            <form action="/charge/" method="POST" id="order-form-remix">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <div class="checkout-table">
+                            <div class="order-header">Your Order</div>
+                            <div id="product-info">
+                                <div class="product-description">Pure Resin Donald Trump Bobblehead</div>
+                                <div class="product-other-wrapper">
+                                    <div class="product-price">
+                                        $<span id="price">19.99</span> x
+                                    </div>
+                                    <div class="product-quantity">
+                                        <select name="product-quantity-items" id="product-quantity-items" class="c-select">
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-shipping">
+                                <div class="shipping">Shipping</div>
+                                <div class="shipping-free">Free!</div>
+                            </div>
+                            <div class="order-subtotal">
+                                Subtotal: $<span id="order-subtotal"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <a href="/paypal/redirect/1999" id="paypal-button"><div>Checkout with PayPal</div></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>

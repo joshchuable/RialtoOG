@@ -1,0 +1,56 @@
+body {
+	font-size: 12px;
+	font-family: 'Lato', sans-serif;
+	color: $black;
+	margin: 0;
+	position: relative;
+	z-index: -100;
+}
+
+#content {
+	position: relative;
+	z-index: -1;
+}
+
+button {
+	border: none;
+
+	&:focus {
+		outline: none;
+	}
+}
+
+ul, menu, dir {
+	padding: 0;
+	margin: 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.strikethrough {
+	text-decoration: line-through;
+}
+
+.background-transparent {
+	background: transparent;
+}
+
+.white-bg {
+	background: $white;
+}
+
+.off-white-bg {
+	background: $off-white;
+}
+
+.row-section {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.bold-text {
+	font-weight: bold;
+}

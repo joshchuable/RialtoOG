@@ -1,0 +1,1245 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"border-",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"top",
+				"top-container"
+			],
+			[
+				"build",
+				"build_css"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"col",
+				"col-md-12"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"blue",
+				"blue-primary"
+			],
+			[
+				"mysqli",
+				"mysqli_fetch"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "__init__.py",
+			"settings":
+			{
+				"buffer_size": 5451,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/base.html",
+			"settings":
+			{
+				"buffer_size": 270,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/head.html",
+			"settings":
+			{
+				"buffer_size": 841,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/nav.html",
+			"settings":
+			{
+				"buffer_size": 532,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/footer.html",
+			"settings":
+			{
+				"buffer_size": 1719,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/error.html",
+			"settings":
+			{
+				"buffer_size": 347,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/home.html",
+			"settings":
+			{
+				"buffer_size": 3214,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/checkout/checkout.html",
+			"settings":
+			{
+				"buffer_size": 4585,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/terms/terms.html",
+			"settings":
+			{
+				"buffer_size": 18988,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/checkout/thankyou.html",
+			"settings":
+			{
+				"buffer_size": 568,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/src/scss/style.scss",
+			"settings":
+			{
+				"buffer_size": 931,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/src/js/layout.js",
+			"settings":
+			{
+				"buffer_size": 776,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/src/scss/basic_settings/_basic_settings.scss",
+			"settings":
+			{
+				"buffer_size": 623,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/src/scss/elements/_home.scss",
+			"settings":
+			{
+				"buffer_size": 1588,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/src/scss/elements/_checkout.scss",
+			"settings":
+			{
+				"buffer_size": 823,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/src/scss/responsive/_responsive_breakpoints.scss",
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/src/scss/elements/_nav.scss",
+			"settings":
+			{
+				"buffer_size": 698,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/src/scss/elements/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 840,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/src/scss/custom_variables/_custom_variables.scss",
+			"settings":
+			{
+				"buffer_size": 660,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "static/src/scss/elements/_buttons.scss",
+			"settings":
+			{
+				"buffer_size": 514,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "color",
+		"selected_items":
+		[
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"stfp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"sft",
+				"SFTP: Setup Server…"
+			],
+			[
+				"sfrp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 496.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/css_debug",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/js",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss/animation",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss/basic_settings",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss/elements",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss/responsive",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/templates"
+	],
+	"file_history":
+	[
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/img",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/templates/head.html",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/js/layout.js",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/__init__.py",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/pscripts/send_email.py",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/templates/contact/contact.html",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/templates/base.html",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/js/form.js",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss/animation/_animations.scss",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss/basic_settings/_basic_settings.scss",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss/custom_variables/_custom_variables.scss",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/templates/footer.html",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/gulpfile.js",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss/style.scss",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss/responsive/_responsive_breakpoints.scss",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss/grid/_grid.scss",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss/elements/_buttons.scss",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss/elements/_content.scss",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/static/src/scss/elements/_nav.scss",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/sftp-config.json",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/templates/snippets/table",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/templates/snippets/table2",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/templates/snippets/form",
+		"/C/Users/RyeJ/Desktop/bootstrap-sass-3.3.6/bootstrap-sass-3.3.6/assets/stylesheets/_bootstrap.scss",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/site_template/sftp",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/revopstools/Revopstools_UI/gulpfile.js",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/revopstools/Revopstools_UI/index.py",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/revopstools/Revopstools_UI/static/src/scss/scss.scss",
+		"/C/Users/RyeJ/Google-Drive/1-My-Documents/1-GitHub/revopstools/Revopstools_UI/templates/index.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/@-5-Misc Sites/howtolearnchinese/@ Blog Posts/v2/Chinese Dictionaries - Reviewed.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/@-5-Misc Sites/howtolearnchinese/@ Blog Posts/Chinese Dictionaries - Reviewed.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/Chinese Dictionaries - Reviewed.html",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/!-Build/CSS/style.css",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_other.scss",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/pages/_homepage.scss",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/pages/_blog.scss",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/Textbook Reviews.html",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/PHP/functions.php",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_breakpoints.scss",
+		"/C/Users/RyeJ/AppData/Local/Temp/fz3temp-1/wp-config.php",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/style.scss",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/PHP/sftp-config.json",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/PHP/AmazonPriceReturn.php",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/! Code/PHP/functions.php",
+		"/C/Users/RyeJ/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/RyeJ/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_resources.scss",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/Beginner Study Methods.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/Beginner Resources.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/About.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/Templates.html",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/Home-Page.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/Intermediate Study Methods.html",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/gulpfile.js",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/!-Sass/style.css",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/!-Build/CSS/sftp-config.json",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_animations.scss",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/style.css",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/Home-Page.html",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/other/_glyphicons.scss",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/_Page Template.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/v2/Banned.html",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/wordpress/_wp-header.scss",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/style-backup.css",
+		"/C/Program Files (x86)/EasyPHP-Webserver-14.1b2/www/wordpress/wp-config.php",
+		"/C/Users/RyeJ/AppData/Local/Temp/fz3temp-1/functions.php",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/! Code/CSS/other/_other.scss",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/Disclaimer.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/Chinese Dictionaries - Reviewed.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/Textbook Reviews.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/Intermediate Resources.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/Beginner Resources.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/Advanced Resources.html",
+		"/D/autorun.inf",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/CSS/sftp-config.json",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/Intermediate Study Methods.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/@ Blog Posts/_Page Template.html",
+		"/C/Users/RyeJ/Google Drive/! my documents/(@) z - misc sites/howtolearnchinese/! Code/Characters/Confucious.html",
+		"/C/Users/RyeJ/AppData/Local/Temp/fz3temp-1/listing.tpl.php",
+		"/C/Users/RyeJ/AppData/Local/Temp/fz3temp-1/frontend.css",
+		"/C/Users/RyeJ/AppData/Local/Temp/fz3temp-1/listing.php",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/! Code/CSS/wordpress/wp-header.scss",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/! Code/CSS/style.css",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/! Code/Home-Page.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Z - Misc Sites/howtolearnchinese/! Code/CSS/style.scss",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Travel Pals/(1) Custom Code/CSS/style.css",
+		"/C/Users/RyeJ/Desktop/Learn Coding/PHP/PHP project - diary.sublime-project",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Travel Pals/(1) Custom Code/CSS/style.scss",
+		"/C/Users/RyeJ/AppData/Roaming/Sublime Text 3/Packages/phpfmt/phpfmt.sublime-settings",
+		"/C/Users/RyeJ/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/RyeJ/Desktop/Learn Coding/PHP/js/weatherscript.js",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Blog/Code Database/css/style.css",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Blog/Code Database/homepagev1.html",
+		"/C/Users/RyeJ/Google Drive/! My Documents/(@) Blog/Code Database/Contact v1.html",
+		"/C/Users/RyeJ/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/C/Users/RyeJ/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/RyeJ/Desktop/Learn Coding/PHP/sftp-config.json",
+		"/C/Users/RyeJ/Desktop/Learn Coding/Boostrap/dist/js/jscript.js",
+		"/C/Users/RyeJ/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"lg",
+			"row-section",
+			"3",
+			"4",
+			"col-xs-6 col-xs-offset-3",
+			"sm",
+			"<p>",
+			"<h3>",
+			"trump",
+			"#t",
+			"#",
+			"jumbotron",
+			"WP_MEMORY_LIMIT",
+			"/var/www",
+			"40px",
+			"$endpoint",
+			"$request_url",
+			"$xml",
+			"10%",
+			"#357ebd",
+			"#428bca",
+			"region",
+			"US",
+			"$region",
+			"howtolearnc00-20",
+			"howtolearnc0e-20",
+			"small",
+			"style=\"display: inline;\"",
+			"small",
+			"margin",
+			"review",
+			"0",
+			"1",
+			"howtolearnc0e-20",
+			"wrapper",
+			"smallTopMargin",
+			"col-3 shift-1",
+			"col-offset-1",
+			"md-",
+			"entry",
+			"\n$",
+			")\";\n",
+			"$screen-sm-max: \"only screen and (max-width: 768px)\";",
+			"*/",
+			"greenHr",
+			"80",
+			"alignnone",
+			"body",
+			"lato",
+			"color"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"howtolearnc0a-20",
+			"howtolearnc00-20",
+			"blueHr",
+			"redHr",
+			"120"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5451,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1193,
+								1193
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								643,
+								643
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/nav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								127,
+								156
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/footer.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1125,
+								1125
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/error.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								347,
+								347
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								3214
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "templates/checkout/checkout.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4585,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1085,
+								1085
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "templates/terms/terms.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18615,
+								18615
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6211.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "templates/checkout/thankyou.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja2).tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 10,
+					"file": "static/src/scss/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								817,
+								817
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "static/src/js/layout.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								298,
+								298
+							],
+							[
+								544,
+								544
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "static/src/scss/basic_settings/_basic_settings.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								587,
+								505
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 662.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "static/src/scss/elements/_home.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1588,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1487,
+								1378
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1596.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "static/src/scss/elements/_checkout.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								799,
+								799
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 562.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "static/src/scss/responsive/_responsive_breakpoints.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "static/src/scss/elements/_nav.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 698,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								469
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 415.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "static/src/scss/elements/_footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 840,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								761,
+								761
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"open_with_edit": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 700.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "static/src/scss/custom_variables/_custom_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 660,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "static/src/scss/elements/_buttons.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 514,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								511,
+								511
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.5,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 130.0
+	},
+	"pinned_build_system": "",
+	"project": "site_template.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\RyeJ\\Google Drive\\! My Documents\\(@) Z - Misc Sites\\AnswersSaaS\\AnswersSaaS.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 290.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

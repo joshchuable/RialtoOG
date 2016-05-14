@@ -1,0 +1,57 @@
+nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1000;
+	height: 80px;
+
+	background: $white;
+	border-bottom: 1px solid $gray;
+	box-shadow: 0px 0px 5px rgba($black,.1);
+
+	.container {
+		height: 100%;
+	}
+
+	.fixed-menu {
+		width: 100%;
+		list-style-type: none;
+		@include vertical-align();
+	}
+
+	li {
+		@include vertical-align();
+	}
+
+	.menu-left {
+		float: left;
+	}
+
+	.menu-right {
+		float: right;
+	}
+
+	.menu-right,
+	.menu-left {
+		li {
+			display: inline-block;
+			text-align: right;
+			margin-left: 40px;
+			font-weight: bold;
+			font-size: 18px;
+
+			a {
+				color: darken($gray,20);
+				text-decoration: none;
+
+				&:hover {
+					color: darken($gray,30);
+				}
+			}
+		}
+	}
+}
+
+.logo {
+}

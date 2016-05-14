@@ -1,0 +1,27 @@
+/*** COLORS ***/
+$white: #f7f7f7;
+$off-white: #F5F0F0;
+$black: #1b1b1b;
+$dark-text: #5C5555;
+$gray: lighten(#c6c6c6,10);
+$gray-dark: darken($gray, 16);
+$gray-light: lighten($gray, 14);
+$blue: #0066cc;
+$blue-dark: darken($blue, 10);
+$blue-light: lighten($blue, 10);
+$teal: #29D8BD;
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {@content}
+  &:-moz-placeholder           {@content}
+  &::-moz-placeholder          {@content}
+  &:-ms-input-placeholder      {@content}
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

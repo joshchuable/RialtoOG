@@ -1,0 +1,19 @@
+$screen-sm-min: 200px;
+$screen-sm-max: 33.9em;
+$screen-md-max: 61.9em;
+$screen-lg-min: 1200px;
+$screen-sm-query: "(max-width: #{$screen-sm-max})";
+$screen-md-query: "(min-width: #{$screen-sm-max}) and (max-width: #{$screen-md-max})";
+$screen-md-max: "screen and (max-width: 768px)";
+
+@mixin screen-sm {
+	@media #{$screen-sm-query} {
+		@content;
+	}
+}
+
+@mixin screen-xs {
+	@media #{$screen-xs-query} {
+		@content;
+	}
+}
