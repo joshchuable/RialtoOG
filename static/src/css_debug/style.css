@@ -373,6 +373,92 @@ nav .menu-items {
   margin-top: 10px;
 }
 
+.contact-title {
+  color: #5C5555;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.contact-form {
+  padding: 20px 12px;
+  background-color: rgba(247, 247, 247, 0.9);
+  box-shadow: 0px 0px 3px rgba(27, 27, 27, 0.5);
+  color: #5C5555;
+  font-size: 14px;
+  border-radius: 4px;
+}
+@media (max-width: 33.9em) {
+  .contact-form {
+    font-size: 16px;
+  }
+}
+.contact-form input,
+.contact-form textarea {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(247, 247, 247, 0.8);
+  background-color: rgba(247, 247, 247, 0.4);
+  display: block;
+  width: 94%;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  box-shadow: 0px 0px 3px rgba(27, 27, 27, 0.7);
+}
+
+#name::-webkit-input-placeholder,
+#email::-webkit-input-placeholder,
+#subject::-webkit-input-placeholder,
+#message::-webkit-input-placeholder {
+  color: #5C5555;
+}
+#name:-moz-placeholder,
+#email:-moz-placeholder,
+#subject:-moz-placeholder,
+#message:-moz-placeholder {
+  color: #5C5555;
+}
+#name::-moz-placeholder,
+#email::-moz-placeholder,
+#subject::-moz-placeholder,
+#message::-moz-placeholder {
+  color: #5C5555;
+}
+#name:-ms-input-placeholder,
+#email:-ms-input-placeholder,
+#subject:-ms-input-placeholder,
+#message:-ms-input-placeholder {
+  color: #5C5555;
+}
+@media (max-width: 33.9em) {
+  #name,
+  #email,
+  #subject,
+  #message {
+    font-size: 16px;
+  }
+}
+
+#message {
+  height: 100px;
+}
+
+#submit {
+  background-color: #29D8BD;
+  font-size: 18px;
+  color: #f7f7f7;
+  max-width: 300px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-bottom: 0;
+  box-shadow: 0px 0px 0px;
+}
+#submit:hover {
+  background-color: #24c8af;
+}
+
 .footer-wrapper {
   background: #333030;
   color: #f7f7f7;
